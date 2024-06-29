@@ -9,7 +9,7 @@ import toast from 'react-hot-toast';
 import io from 'socket.io-client'
 import {FaList} from 'react-icons/fa'
 
-const socket = io('http://localhost:5000')
+const socket = io('https://easyshop-backend-b4ge.onrender.com')
 
 const Chat = () => {
 
